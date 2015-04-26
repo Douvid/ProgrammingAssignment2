@@ -4,7 +4,7 @@
 ## The first function creates a matrix object that caches its inverse
 makeCacheMatrix <- function(x = matrix()) {
       n <- 3 ## inputs the parameter for the matrix size
-      matrix <- matrix(rnorm(1:(n*n)), nrow=n, ncol=n) ## creates the matrixs based on n
+      matrix <- matrix(rnorm(1:(n*n)), nrow=n, ncol=n) ## creates the matrix based on n
       m<-NULL
       set<-function(y){
             x<<-y
